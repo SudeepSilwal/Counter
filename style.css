@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25vh auto;
+}
+
+.btn {
+    height: 7.5vmax;
+    width: 15vmax;
+    margin: 0 10%;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 7.5px;
+}
+
+.btn:hover {
+    scale: 1.03;
+    box-shadow: 2px 2px 2px;
+}
+
+button {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 5rem;
+}
+
+.num {
+    width: 10ch;
+    margin: 0 5%;
+    text-align: center;
+}
